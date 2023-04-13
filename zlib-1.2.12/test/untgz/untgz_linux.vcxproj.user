@@ -4,10 +4,12 @@
     <RemoteDebuggerCommand />
     <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
     <RemoteDebuggerWorkingDirectory />
+    <RemoteDebuggerCommandArguments>/root/bin/Debug/zlib-1.2.13.tar.gz</RemoteDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <RemoteDebuggerCommand />
     <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
     <RemoteDebuggerWorkingDirectory />
+    <RemoteDebuggerCommandArguments>/root/bin/Debug/zlib-1.2.13.tar.gz</RemoteDebuggerCommandArguments>
   </PropertyGroup>
 </Project>
