@@ -54,10 +54,9 @@
       <PreprocessorDefinitions>ZLIB_WINAPI;ASMV;ASMINF;_DEBUG;_CONSOLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <LibraryDependencies>zlib</LibraryDependencies>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(RemoteRootDir)/../lib/$(Configuration)/;$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <LibraryDependencies>
+      </LibraryDependencies>
+      <AdditionalDependencies>/root/lib/$(Configuration)/libzlib.a;</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -66,10 +65,9 @@
       <PreprocessorDefinitions>ZLIB_WINAPI;ASMV;ASMINF;NDEBUG;_CONSOLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <LibraryDependencies>zlib</LibraryDependencies>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(RemoteRootDir)/../lib/$(Configuration)/;$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <LibraryDependencies>
+      </LibraryDependencies>
+      <AdditionalDependencies>/root/lib/$(Configuration)/libzlib.a;</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

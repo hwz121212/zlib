@@ -5,11 +5,13 @@
     <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
     <RemoteDebuggerWorkingDirectory />
     <RemoteDebuggerCommandArguments>/root/bin/Debug/zlib-1.2.13.tar.gz</RemoteDebuggerCommandArguments>
+    <RemoteTarget>1343664412;192.168.0.102 (username=, port=22, authentication=Password)</RemoteTarget>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <RemoteDebuggerCommand />
     <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
     <RemoteDebuggerWorkingDirectory />
     <RemoteDebuggerCommandArguments>/root/bin/Debug/zlib-1.2.13.tar.gz</RemoteDebuggerCommandArguments>
+    <RemoteTarget>1343664412;192.168.0.102 (username=, port=22, authentication=Password)</RemoteTarget>
   </PropertyGroup>
 </Project>
