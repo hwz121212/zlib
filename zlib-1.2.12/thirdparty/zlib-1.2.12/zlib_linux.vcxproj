@@ -78,12 +78,16 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZLIB_DLL;ZLIB_BUILDING;</PreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZLIB_DLL;ZLIB_BUILDING;</PreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link />
   </ItemDefinitionGroup>
