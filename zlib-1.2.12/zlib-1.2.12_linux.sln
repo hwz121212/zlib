@@ -14,16 +14,28 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "puff", "puff", "{6DB705B6-C0DD-4120-BE42-059798D6A812}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pufftest", "test\puff\pufftest_linux.vcxproj", "{492B8D1D-F7ED-4C08-AE65-38BCEDD0CB9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B2C24082-7AFC-42A4-B31A-37D2E12823F5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example", "test\test\example_linux.vcxproj", "{849211A0-8C01-4C2B-A528-79DDF1223E0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minigzip", "test\test\minigzip_linux.vcxproj", "{3161972B-FE74-4296-A200-4B1D39EF6DCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "untgz", "untgz", "{2E749D76-5011-4F27-9DB4-D406B05CBEBB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "untgz", "test\untgz\untgz_linux.vcxproj", "{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
