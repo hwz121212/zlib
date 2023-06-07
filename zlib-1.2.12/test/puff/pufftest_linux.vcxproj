@@ -58,7 +58,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>/root/projects/libzlib/include/</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>/root/projects/zlib/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI;ASMV;ASMINF;_DEBUG;_CONSOLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
     <Link />
@@ -68,7 +68,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>/root/projects/libzlib/include/</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>/root/projects/zlib/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI;ASMV;ASMINF;NDEBUG;_CONSOLE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
     <Link>

@@ -77,13 +77,13 @@
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/libzlib/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/libzlib/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
